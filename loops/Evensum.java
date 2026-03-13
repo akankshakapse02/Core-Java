@@ -1,0 +1,32 @@
+package com.loops;
+
+public class Evensum {
+	public static void main(String[] args) {
+		int sum = 0;
+		// for (int i = 2; i <= 100; i+=2) {
+
+		// sum += i;
+		// }
+		// System.out.println("Sum of first 10 natural numbers: " + sum);
+
+		// while loop
+		// int i = 2;
+		// while (i <= 100) {
+		// sum += i;
+		// i += 2;
+
+		// System.out.println("Sum of even numbers from 1 to 100: " + sum);
+
+		// do while loop
+
+		int i = 2;
+		do {
+
+			sum += i;
+			i += 2;
+			System.out.println("Sum of even numbers from 1 to 100: " + sum);
+		} while (i <= 100);
+
+	}
+
+}
